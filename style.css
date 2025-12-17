@@ -512,16 +512,13 @@ body, html {
      margin-top: 104px;
      font-size: 10px;
   }
-  .contact_container{
- 
-  }
   .contact_headings{
      margin-left: 50%;
      transform: translateX(-50%);
      text-align: center;
      width: 100%;
      padding: 0 30px;
-     max-width: 833px;
+     max-width: 800px;
   }
   .contact_section_heading{
      color: #fff;
@@ -559,9 +556,6 @@ body, html {
      letter-spacing: 11px;
   }
  
-  .right_container{
- 
-  }
   .right_container input{
      background: none;
      border: none;
@@ -608,9 +602,6 @@ body, html {
      align-items: center;
      text-align: center;
   }
-  .last_container{
- 
-  }
   .last_container_heading{
      margin-top: -21px;
      margin-bottom: 52px;
@@ -624,9 +615,6 @@ body, html {
   .last_container_menu ul{
      display: flex;
      gap: 52px
-  }
-  .last_container_menu ul li{
- 
   }
   .last_container_menu ul li a{
      color: #fff;
@@ -699,7 +687,7 @@ body, html {
       }
       .background{
          width: 363px;
-         height: 384px; 
+         height: 336px; 
       }
       .right_side .background img{
          width: 346px;
@@ -712,7 +700,7 @@ body, html {
       }
       .background{
          width: 407px;
-         height: 427px; 
+         height: 382px; 
       }
       .right_side .background img{
          width: 392px;
