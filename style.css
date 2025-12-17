@@ -519,6 +519,8 @@ body, html {
      margin-left: 50%;
      transform: translateX(-50%);
      text-align: center;
+     width: 100%;
+     padding: 0 30px;
   }
   .contact_section_heading{
      color: #fff;
@@ -722,7 +724,7 @@ body, html {
       }
       .background{
          width: 469px;
-         height: 448px; 
+         height: 341px; 
       }
       .right_side .background img{
          width: 447px;
