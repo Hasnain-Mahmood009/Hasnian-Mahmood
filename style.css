@@ -129,7 +129,7 @@ body, html {
      justify-content: center;
      align-items: center;
      overflow: hidden;
-     height: 386px;
+     height: 330px;
      margin-top: 73px;
      animation: animate 7s linear infinite;
  }
@@ -395,7 +395,9 @@ body, html {
          margin-bottom: -79px;
          opacity: 1;
      }
-     
+     .introduction{
+         line-height: 50px ;
+     }
     
      .menu{
          flex-direction: column;
@@ -418,7 +420,7 @@ body, html {
           width: 308px;
      }
      .background{
-         height: 428px;
+         height: 387px;
      }
      .menu{
          background: #000000d9;
@@ -461,6 +463,12 @@ body, html {
          width: 324px;
    } 
   }
+  @media (max-width : 415px){
+      .background{
+         height: 308px;
+      }
+  }
+
   /* ================================================================
                              FEATURE SECTION 
   ================================================================ */
