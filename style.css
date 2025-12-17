@@ -521,6 +521,7 @@ body, html {
      text-align: center;
      width: 100%;
      padding: 0 30px;
+     max-width: 833px;
   }
   .contact_section_heading{
      color: #fff;
