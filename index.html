@@ -3,275 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HH Tech Services</title>
+    <title>Hasnain Mahmood | HH Tech Services</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Inline:opsz@10..72&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/favicon.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="container">
-        <div class="header_section">
-            <div class="logo header_animate">HH</div>
-            <div class="menu_icon" id="menu_icon"><i class="fa-solid fa-bars"></i></div>
-            <div class="menu" id="menu">
-                <div class="cancel_icon" id="cancel_icon"><i class="fa-solid fa-xmark"></i></div>
-                <div class="home header_animate"><a class="menu-item" href="#">Home</a></div>
-                <div class="feature header_animate"><a class="menu-item" href="#">Feature</a></div>
-                <div class="skill header_animate"><a class="menu-item" href="#">Skill</a></div>
-                <div class="portfolio header_animate"><a class="menu-item" href="#">Portfolio</a></div>
-                <div class="content header_animate"><a class="menu-item" href="#">Content</a></div>
-                <div class="button">Download CV</div>
+
+    <nav>
+        <div class="logo">HH <span>TECH.</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <span class="menu_icon" id="menu_icon_id">
+        <i class="fa-solid fa-list"></i>
+        </span>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-right">
+            <h4 style="font-family: Playwrite RO; font-size:30px; border-radius: 20px;">Hi, I'm</h4>
+            <h1>Hasnain <br><span>Mahmood</span></h1>
+            <p>Frontend Developer with solid DSA fundamentals and 100+ LeetCode problems solved.
+            Learning Cybersecurity and leveraging AI to maximize efficiency and impact.</p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">Hire Me Now</a>
+                <a href="#portfolio" class="btn btn-outline">View Projects</a>
             </div>
         </div>
-        <span class="section-1"></span>
-        <div class="home_section">
-            <div class="container">
-                <div class="left_side">
-                    <div class="welcom home_animation_1">welcome to my world</div>
-                    <div class="introduction home_animation_1">Hi, I'm<br><span class="home_animation_1" style="color: #ff014f;">Hasnain Mahmood</span><br><span class="home_animation_1">a Developer</span></div>
-                    <p class="home_animation_1">Frontend Developer with solid DSA fundamentals and 150+ LeetCode problems solved.
-Learning Cybersecurity and leveraging AI to maximize efficiency and impact.</p>
-                    
-                    <div class="cta_btns">
-                        <div class="hire home_animation_2">Hire me</div>
-                        <div class="download_cv home_animation_2">Download CV</div>
-                    </div>
-                    <div class="social_icon">
-                        <a class="instagram home_animation_2" href="https://www.instagram.com/hh_tech_services?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="youtube home_animation_2" href="https://www.youtube.com/@HH_Tech_Services" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                        <a class="linkedin home_animation_2" href="https://www.linkedin.com/in/hasnain-mahmood-762455354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a class="github home_animation_2" href="https://github.com/Hasnain-Mahmood009" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    </div>
-                
-                    
-                    <div class="right_side">
-                        <div class="background home_image_animation">
-                            <img class="home_image_animation" src="images/My_image.png" alt="">
-                        </div>
-                    </div>
-                </div>
+        <div class="hero-image" data-aos="fade-left">
+            <img src="images/final_image.jpg" alt="Hasnain Mahmood">
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2 class="section-title">The Skills <span>Behind Work</span></h2>
+        <div class="skills-container">
+            <div data-aos="fade-up">
+                <p style="color: var(--text-dim); font-size: 1.1rem;">I’m a passionate Frontend Developer and a 10th-grade student who loves turning ideas into clean and responsive user interfaces.
+
+I have strong skills in Python, completed DSA using Python, and solved 100+ problems on LeetCode to sharpen my problem-solving abilities.
+
+I’m currently learning Cyber Security to understand how systems stay secure, and after completing it, I plan to dive into Artificial Intelligence to build smarter and safer applications.</p>
+                <br>
             </div>
-        
-
-
-        <div class="feature_section section-2">
-            <div class="feature_container">
-                <div class="feature_section_heading_container">
-                <div class="feature_word feature_animation_3">FEATURE</div>
-                <div class="heading feature_animation_3">What I Do</div>
+            <div data-aos="fade-up">
+                <div class="skill-bar">
+                    <div class="skill-info"><span>Frontend (HTML/CSS/JS)</span><span>95%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 95%;"></div></div>
                 </div>
-
-                <div class="features">
-
-                    <div class="box feature_animation_1">
-                        <div class="icon"><i class="fa-solid fa-shield"></i></div>
-                        <div class="skill">Cyber Security</div>
-                        <div class="discraption">Secure and resilient digital systems</div>
-                    </div>
-
-                    <div class="box feature_animation_3">
-                        <div class="icon"><i class="fa-solid fa-code"></i></div>
-                        <div class="skill">Web development</div>
-                        <div class="discraption">Responsive and modern website  creation</div>
-                    </div>
-
-                    <div class="box feature_animation_2">
-                        <div class="icon"><i class="fa-solid fa-square-binary"></i></div>
-                        <div class="skill">Programming</div>
-                        <div class="discraption">Clean, logical and efficient coding</div>
-                    </div>
-
-                    <div class="box feature_animation_1">
-                        <div class="icon"><i class="fa-solid fa-brain"></i></div>
-                        <div class="skill">Artificial  intelligence</div>
-                        <div class="discraption">Exploring ML and smart systems</div>
-                    </div>
-
-                    <div class="box feature_animation_3">
-                        <div class="icon"><i class="fa-solid fa-database"></i></div>
-                        <div class="skill">Firebase/Database</div>
-                        <div class="discraption">Realtime firebase auth system</div>
-                    </div>
-
-                    <div class="box feature_animation_2">
-                        <div class="icon"><i class="fa-solid fa-pen-ruler"></i></div>
-                        <div class="skill">UI/UX Designing</div>
-                        <div class="discraption">User-friendly and clean designs</div>
-                    </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>Python & DSA</span><span>85%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>Cyber Security</span><span>70%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>Firebase/Realtime Data</span><span>65%</span></div>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 65%;"></div></div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <span class="section-3"></span>
-        <div class="skill_section">
-            <div class="skill_container">
-
-                <div class="headings">
-                    <div id="skill"></div>
-                <div class="skill_heading skill_animation" >Development Skill</div>
-                <div class="main_heading skill_animation">Skills</div>
-                </div>
-
-                <div class="progress_container">
-                <div class="skill_box skill_animation">
-                    <div class="name">HTML</div>
-                    <div class="progress">
-                        <div class="progress_indicator html"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">CSS</div>
-                    <div class="progress">
-                        <div class="progress_indicator css"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">JAVASCRIPT</div>
-                    <div class="progress">
-                        <div class="progress_indicator js"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">PYTHON</div>
-                    <div class="progress">
-                        <div class="progress_indicator python"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">C++</div>
-                    <div class="progress">
-                        <div class="progress_indicator cpp"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">Gsap</div>
-                    <div class="progress">
-                        <div class="progress_indicator gsap"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">Firebase</div>
-                    <div class="progress">
-                        <div class="progress_indicator firebase"></div>
-                    </div>
-                </div>
-
-                <div class="skill_box skill_animation">
-                    <div class="name">Cybersecurity Tool</div>
-                    <div class="progress">
-                        <div class="progress_indicator cyber"></div>
-                    </div>
-                </div>
-
-
+    <section id="services">
+        <h2 class="section-title">Premium <span>Solutions</span></h2>
+        <div class="services-grid">
+            <div class="service-card" data-aos="zoom-in">
+                <i class="fas fa-layer-group"></i>
+                <h3>Web Development</h3>
+                <p>Building high-quality, responsive websites using the latest HTML5, CSS3, and JavaScript standards.</p>
             </div>
-
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-user-shield"></i>
+                <h3>Cyber Security</h3>
+                <p>Focusing on secure coding practices and learning digital system protection fundamentals.</p>
+            </div>
+            <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-microchip"></i>
+                <h3>AI Learning & Integration</h3>
+                <p>Actively learning to integrate AI models and smart features to optimize web application efficiency.</p>
             </div>
         </div>
+    </section>
 
-        <span class="section-4"></span>
-        <div class="portfolio_section portfolio_animation">
-            <div class="portfolio_heading">
-                <div class="first_heading">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</div>
-                <div class="portfolio_main_heading">MY PORTFOLIO</div>
+    <section id="portfolio">
+        <h2 class="section-title">Selected <span>Projects</span></h2>
+        <div class="portfolio-grid">
+            <div class="project-card" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=60" alt="Project">
+                <div class="project-overlay">
+                    <h3>Responsive Design</h3>
+                    <p>HTML • CSS • JS</p>
+                </div>
             </div>
-            <div class="portfolio_container">
-                <div class="web_boxes">
-                    <img src="images/image (2).jpg" alt="">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?auto=format&fit=crop&w=600&q=60" alt="Project">
+                <div class="project-overlay">
+                    <h3>DSA Solutions</h3>
+                    <p>C++ • 100+ LeetCode</p>
                 </div>
-
-                <div class="web_boxes">
-                    <img src="images/image (3).jpg" alt="">
-                </div>
-
-                <div class="web_boxes">
-                    <img src="images/image (1).jpg" alt="">
-                </div>
-
-                <div class="web_boxes">
-                    <img src="images/image (4).jpg" alt="">
-                </div>
-
-                <div class="web_boxes">
-                    <img src="images/image (5).jpg" alt="">
-                </div>
-
-                <div class="web_boxes">
-                    <img src="images/image (6).jpg" alt="">
-                </div>
-
             </div>
-        </div>
-
-        <span class="section-5"></span>
-        <div class="contact_section">
-            <div class="contact_container">
-                <div class="contact_headings contact_heading_animation">
-                <div class="contact_section_heading">Get in touch</div>
-                <div class="sub_heading">Thank you for visiting my website. If you’d like to connect, collaborate, or discuss ideas, feel free to reach out at any time.
-I’d be happy to hear from you and will do my best to respond as soon as possible.</div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=60" alt="Project">
+                <div class="project-overlay">
+                    <h3>Security Research</h3>
+                    <p>Learning • Python</p>
+                </div>
             </div>
-
-                <div class="messege_container">
-                    <div class="left_container contact_left_container_animation">
-                            <div class="left_heading">Find me</div>
-                            <div class="email"><i class="fa-solid fa-envelope"></i><span>Email : hasnainmahmood253@gmail.com</span></div>
-                            <div class="phone_number"><i class="fa-solid fa-phone"></i><span>+92 3192196188</span></div>
-                    </div>
-
-                    <form id="contact_form">
-                        <div class="right_container contact_right_container_animation">
-                          <input type="text" name="from_name" placeholder="Name" required />
-                          <input type="email" name="from_email" placeholder="Email" required /><br />
-                          <textarea name="message" placeholder="Message" required></textarea><br />
-                          <button type="button" class="send_btn" id="send_btn">Send</button>
-                        </div>
-                      </form>
-                      
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="images/leetcode.png" class="leetcode" alt="Project">
+                <div class="project-overlay">
+                    <h3>LeetCode DSA Practice</h3>
+                    <p>100+ Problems • DSA • Algorithms</p>
                 </div>
             </div>
         </div>
+    </section>
 
-
-        <div class="last_section">
-            <div class="last_container">
-                <div class="footer_image"><img src="images/footer_image.jpeg" alt=""></div>
-                <div class="last_container_heading">Hasnain Mahmood</div>
-
-                <div class="last_container_menu">
-                    <ul>
-                        <li><a class="menu-item" href="#">Home</a></li>
-                        <li><a class="menu-item" href="#">About</a></li>
-                        <li><a class="menu-item" href="#">Project</a></li>
-                        <li><a class="menu-item" href="#">Contact</a></li>
-                    </ul>
+    <section id="contact">
+        <h2 class="section-title">Let's Work <span>Together</span></h2>
+        <p style="color: #555; font-size: 13px; text-align: center; margin-bottom: 80px;">I enjoy building digital experiences and continuously improving my skills through real problem-solving and learning. I’m open to connecting with people who value creativity, clean code, and smart solutions.
+Whether you’re looking to collaborate, discuss ideas, or work on something meaningful, feel free to reach out — good things often start with a simple conversation.</p>
+        <div class="contact-content">
+            
+            <div class="contact-info" data-aos="fade-left">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <p>Email <a href="mailto:hasnainmahmood253@gmail.com">Hasnain Mahmood</a></p>
+                        
+                    </div>
                 </div>
-                <div class="last_container_social_icon">
-                    <span class="linkedin"><a href="https://www.linkedin.com/in/hasnain-mahmood-762455354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></span>
-                    <span class="instagram"><a href="https://www.instagram.com/hh_tech_services?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
-                    <span class="youtube"><a href="https://www.youtube.com/@HH_Tech_Services" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
-                    <span class="github"><a href="https://github.com/Hasnain-Mahmood009" target="_blank"><i class="fa-brands fa-github"></i></a></span>
+                <div class="info-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <div>
+                        <p>LinkedIn <a href="https://www.linkedin.com/in/hasnain-mahmood-762455354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Hasnain Mahmood</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-github"></i>
+                    <div>
+                        <p>Github <a href="https://github.com/Hasnain-Mahmood009" target="_blank">Hasnain Mahmood</a></p>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <footer>
+        <div class="logo" style="margin-bottom: 20px;">HH <span>TECH SERVICES</span></div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p style="color: #555; font-size: 0.8rem;">© 2026 Hasnain Mahmood. All Rights Reserved.</p>
+    </footer>
 
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollToPlugin.min.js" integrity="sha512-uLq4Xf3PvaO+NTghyBWeh43DxozRnHMM2vcwlxY+KVc7xv2PMLimAerptg7AbrdN2qZjAwExwV/IqGm4YQBPww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
