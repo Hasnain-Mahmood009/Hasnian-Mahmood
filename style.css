@@ -19,7 +19,7 @@
 html, body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden; /* Horizontal scroll khatam karne ke liye */
+    overflow-x: hidden; 
     background-color: var(--bg-color);
     color: var(--text-main);
     line-height: 1.6;
@@ -392,6 +392,11 @@ footer {
 
 
 @media (max-width: 768px) {
+    .info-item i {
+    width: 65px;
+    height: 65px;
+    font-size: 2rem;
+}
    .menu_icon{
    display: block;
    }
@@ -417,7 +422,7 @@ footer {
         box-shadow: 0px 40px 52px #000;
     }
 
-    /* HERO SECTION FIX: Text Pehle, Image Baad mein */
+    /* HERO SECTION FIX */
     .hero {
         flex-direction: column; 
         padding-top: 140px;
@@ -474,3 +479,21 @@ footer {
 }
 
 
+
+
+
+.footer_image{
+        position: relative;
+    background: black;
+    width: 152px;
+    border-radius: 50%;
+    height: 152px;
+    overflow: hidden;
+    border: 1px solid #ff9d00;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 48%);
+}
+.footer_image img{
+        width: 136px;
+}
